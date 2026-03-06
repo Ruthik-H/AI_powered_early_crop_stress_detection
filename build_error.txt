@@ -1,0 +1,69 @@
+﻿[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32mΓ£ô[39m 36 modules transformed.
+npx : [31mΓ£ù[39m Build failed in 
+1.08s
+At line:1 char:1
++ npx vite build --logLevel info 
+2>&1 | Out-File -FilePath 
+"C:\Users\Ru ...
++ 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSp 
+   ecified: ([31mΓ£ù[39m Build f  
+  ailed in 1.08s:String) [], Remo   
+ teException
+    + FullyQualifiedErrorId : Nativ 
+   eCommandError
+ 
+[31merror during build:
+[31m[vite:css] [postcss] It looks 
+like you're trying to use 
+`tailwindcss` directly as a PostCSS 
+plugin. The PostCSS plugin has 
+moved to a separate package, so to 
+continue using Tailwind CSS with 
+PostCSS you'll need to install 
+`@tailwindcss/postcss` and update 
+your PostCSS configuration.[31m
+file: [36mC:/Users/Ruthik H/Downloa
+ds/Crop_detection/frontend/src/index
+.css:undefined:NaN[31m
+    at at (C:\Users\Ruthik H\Downloa
+ds\Crop_detection\frontend\node_modu
+les\tailwindcss\dist\lib.js:38:1643)
+    at LazyResult.runOnRoot 
+(C:\Users\Ruthik H\Downloads\Crop_de
+tection\frontend\node_modules\postcs
+s\lib\lazy-result.js:361:16)
+    at LazyResult.runAsync 
+(C:\Users\Ruthik H\Downloads\Crop_de
+tection\frontend\node_modules\postcs
+s\lib\lazy-result.js:290:26)
+    at async runPostCSS (file:///C:/
+Users/Ruthik%20H/Downloads/Crop_dete
+ction/frontend/node_modules/vite/dis
+t/node/chunks/config.js:30145:19)
+    at async compilePostCSS (file://
+/C:/Users/Ruthik%20H/Downloads/Crop_
+detection/frontend/node_modules/vite
+/dist/node/chunks/config.js:30129:6)
+    at async compileCSS (file:///C:/
+Users/Ruthik%20H/Downloads/Crop_dete
+ction/frontend/node_modules/vite/dis
+t/node/chunks/config.js:30059:26)
+    at async Object.handler (file://
+/C:/Users/Ruthik%20H/Downloads/Crop_
+detection/frontend/node_modules/vite
+/dist/node/chunks/config.js:29592:54
+)
+    at async transform (file:///C:/U
+sers/Ruthik%20H/Downloads/Crop_detec
+tion/frontend/node_modules/rollup/di
+st/es/shared/node-entry.js:21269:16)
+    at async 
+ModuleLoader.addModuleSource (file:/
+//C:/Users/Ruthik%20H/Downloads/Crop
+_detection/frontend/node_modules/rol
+lup/dist/es/shared/node-entry.js:214
+97:36)[39m
